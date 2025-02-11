@@ -8,5 +8,21 @@
     <sonar.host.url>http://your-sonarqube-server-ip:9000</sonar.host.url>
     <sonar.projectKey>your-project-key</sonar.projectKey>
 </properties>
+<dependencies>
+    <!-- Selenium -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.11.0</version>
+    </dependency>
+
+    <!-- TestNG -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.4.0</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
 
 </project>
