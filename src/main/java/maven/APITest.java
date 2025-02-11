@@ -1,4 +1,4 @@
-package mavenforjenkins;
+package maven;
 
 public class APITest {
 
