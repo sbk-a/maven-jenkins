@@ -5,8 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>maven-jenkins</name>
   <properties>
-    <sonar.host.url>http://your-sonarqube-server-ip:9000</sonar.host.url>
-    <sonar.projectKey>your-project-key</sonar.projectKey>
+    <sonar.host.url>http://localhost:9000</sonar.host.url>
 </properties>
 <dependencies>
     <!-- Selenium -->
